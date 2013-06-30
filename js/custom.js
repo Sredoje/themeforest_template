@@ -1,9 +1,11 @@
+// Centering first-section-picture
+
 $(document).ready(function(){
-	var element = $('#first-section-piture');
+	var picture = $('#first-section-piture');
 	$(window).resize(function(){
 	 	var height = $(window).outerHeight();
-		var element_height= element.outerHeight();
-		element.css({"margin-top" : (height/2) - (element_height / 1.5) + "px"});
+		var element_height= picture.outerHeight();
+		picture.css({"margin-top" : (height/2) - (element_height / 1.5) + "px"});
 	});
 
 	$(window).resize();
