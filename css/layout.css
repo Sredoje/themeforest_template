@@ -939,7 +939,7 @@ margin-left:160px;
 
 #stars-2 {
 	-webkit-animation-name: starsLargeAlt;
-	-webkit-animation-duration: 45s;
+	-webkit-animation-duration: 40s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
@@ -958,13 +958,13 @@ margin-left:160px;
 #small-stars,
 #small-stars-2 {
 	background: url(../img/stars-small.png) no-repeat center center;
-	-webkit-animation-duration: 20s;
+	-webkit-animation-duration: 50s;
 	-webkit-animation-name: starsSmall;
 }
 
 #small-stars-2 {
 	-webkit-animation-name: starsSmallAlt;
-	-webkit-animation-duration: 30s;
+	-webkit-animation-duration: 50s;
 }
 
 @-webkit-keyframes starsSmall {
