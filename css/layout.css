@@ -425,7 +425,11 @@ margin-left:160px;
 	.two-columns {
 		margin-bottom: 20px;
 	}
-
+	#about_text
+	{
+	position:relative;
+	z-index:100;
+	}
 	/* Team ------------------------------------------ */
 
 	#team {
@@ -493,10 +497,13 @@ margin-left:160px;
 	/* Services ------------------------------------------ */
 
 	#services {
-		background-color: #25292c;
 		color: #fff;
 	}
+#services_cover
+{
+background: #3e4349 url(../img/header1.jpg) no-repeat center center fixed;
 
+}
 	#services hr.thick{
 		margin-top: 40px;
 		margin-bottom: 35px;
@@ -713,7 +720,7 @@ margin-left:160px;
 	/* Contact Us ------------------------------------------ */
 
 	#contact {
-		background: #fec400 url(../img/top-waves.png) repeat-x top;
+		background: #fec400;
 		color: #fff;
 		text-align: center;
 		padding-top: 90px;
@@ -840,6 +847,7 @@ margin-left:160px;
 	top:0;
 	height:100%;
 	width:300%;
+	height:699px;
 	-webkit-animation:cloud_one 100s linear infinite;
 	-moz-animation:cloud_one 100s linear infinite;
 	-o-animation:cloud_one 100s linear infinite;
