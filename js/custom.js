@@ -17,6 +17,33 @@ $(window).load(function(){
   $("#mainnav").sticky({ topSpacing: 0 });
 });
 
+//Knob proggresion bar 
+//http://anthonyterrien.com/knob/ ovo ti je link do sajta
+$(function() {
+    $(".photoshop").knob({
+        width:"150",
+        fgColor:"#ffec03",
+        skin:"tron",
+        thickness:".2",
+        displayPrevious:true
+    });
+    $(".wp").knob({
+        width:"150",
+        fgColor:"#C0ffff",
+        skin:"tron",
+        thickness:".1",
+        angleOffset:"180"
+    });
+
+    $(".dw").knob({
+        width:"100",
+        displayInput:false
+    });
+
+    $(".css").knob();
+
+});
+
 // Smooth scroll
 
 $(document).ready(function() {
