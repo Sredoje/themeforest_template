@@ -430,6 +430,16 @@ margin-left:160px;
 	position:relative;
 	z-index:100;
 	}
+
+	/* Skills ------------------------------------------ */
+	.skills .span3 div:first-child {
+		display:block !important;
+		margin:0 auto;
+	}
+	.skills .span3 div:last-child {
+		text-align:center;
+	}
+	
 	/* Team ------------------------------------------ */
 
 	#team {
