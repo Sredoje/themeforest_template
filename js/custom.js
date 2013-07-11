@@ -17,20 +17,28 @@ $(window).load(function(){
   $("#mainnav").sticky({ topSpacing: 0 });
 });
 
-//Knob proggresion bar 
-//http://anthonyterrien.com/knob/ ovo ti je link do sajta
-$(function() {
-    $(".proggresion-bar").knob({
-        width:"150",
-        height:"170",
-        fgColor:"#fec400",
-        skin:"tron",
-        thickness:".2",
-        displayPrevious:true,
-        readOnly:true
-    });
-});
+// $(function() {
+//     $('.chart').easyPieChart({
+        
+//     });
+// });
 
+var isPopShowed=false;
+
+$(window).scroll(function(){
+    console.log($(window).scrollTop());
+    if($(window).scrollTop()>1000 && isPopShowed ) {
+        $('.chart').easyPieChart({
+            lineWidth:15,
+            lineCap:'square',
+            trackColor:false,
+            scaleColor:false,
+            barColor:'#fec400',
+            animate: 2000
+        });
+    }
+    isPopShowed=true;
+});
 // Smooth scroll
 
 $(document).ready(function() {

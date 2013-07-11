@@ -5,4 +5,5 @@ Import Basic Files
 @import url("normalize.css");				/* CSS Resets */
 @import url("layout.css");					/* Main Styles */
 @import url("grid.css");					/* Twitter Bootstrap Grid */
-@import url("mediaqueries.css");    		/* Media Queries */
+@import url("mediaqueries.css");			/* Media Queries */
+@import url("jquery.easy-pie-chart.css") ;  /* Pie Chart */
