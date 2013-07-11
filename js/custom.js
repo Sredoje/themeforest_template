@@ -26,7 +26,6 @@ $(window).load(function(){
 var isPopShowed=false;
 
 $(window).scroll(function(){
-    console.log($(window).scrollTop());
     if($(window).scrollTop()>1000 && isPopShowed ) {
         $('.chart').easyPieChart({
             lineWidth:15,
