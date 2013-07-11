@@ -22,10 +22,12 @@ $(window).load(function(){
 $(function() {
     $(".proggresion-bar").knob({
         width:"150",
+        height:"170",
         fgColor:"#fec400",
         skin:"tron",
         thickness:".2",
-        displayPrevious:true
+        displayPrevious:true,
+        readOnly:true
     });
 });
 

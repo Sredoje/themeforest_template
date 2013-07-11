@@ -98,8 +98,8 @@
                     height : this.$.data('height') || 200,
                     displayInput : this.$.data('displayinput') == null || this.$.data('displayinput'),
                     displayPrevious : this.$.data('displayprevious'),
-                    fgColor : this.$.data('fgcolor') || '#87CEEB',
-                    inputColor: this.$.data('inputcolor') || this.$.data('fgcolor') || '#87CEEB',
+                    fgColor : this.$.data('fgcolor') || '#FFF',
+                    inputColor: this.$.data('inputcolor') || this.$.data('fgcolor') || '#FFF',
                     inline : false,
                     step : this.$.data('step') || 1,
 
