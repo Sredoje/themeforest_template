@@ -438,9 +438,14 @@ margin-left:160px;
 	}
 	.skills .span2 div:last-child {
 		text-align:center;
+		margin-top:20px;
+		margin-bottom:10px;
 	}
 	.skills ul li {
 		list-style-position: inside;
+	}
+	.skills .chart {
+		font-size:18px;
 	}
 	
 	/* Team ------------------------------------------ */

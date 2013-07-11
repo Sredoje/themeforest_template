@@ -28,11 +28,13 @@ var isPopShowed=false;
 $(window).scroll(function(){
     if($(window).scrollTop()>1000 && isPopShowed ) {
         $('.chart').easyPieChart({
-            lineWidth:15,
-            lineCap:'square',
+            lineWidth:20,
+            lineCap:'butt',
             trackColor:false,
             scaleColor:false,
             barColor:'#fec400',
+            size:150,
+            trackColor:'#5F5F5F',
             animate: 2000
         });
     }
