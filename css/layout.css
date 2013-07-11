@@ -439,6 +439,9 @@ margin-left:160px;
 	.skills .span2 div:last-child {
 		text-align:center;
 	}
+	.skills ul li {
+		list-style-position: inside;
+	}
 	
 	/* Team ------------------------------------------ */
 
